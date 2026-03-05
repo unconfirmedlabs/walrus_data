@@ -1,5 +1,15 @@
-build/*
-traces/*
+# Move
+build/
+traces/
 .trace
 .coverage*
 Pub.*.toml
+
+# Node / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+bun.lock
+
+# OS
+.DS_Store
